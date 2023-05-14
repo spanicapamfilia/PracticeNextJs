@@ -1,0 +1,23 @@
+// @import "base/index";
+@import "./utilities/variables";
+@import "./utilities/mixin";
+// .app-card{
+//     @extend %card-styles
+// }
+// %style-pattern{
+//     background: red;
+//     padding: 20px;
+//     width: 200px;
+// }
+
+.text{
+    &-primary{
+        color: $color-cyan;
+    }
+    &-warning{
+        color: $color-orange;
+    }
+    &-danger{
+        color: $color-red;
+    }
+}
